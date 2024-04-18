@@ -1,3 +1,8 @@
+
+/* Styles*/
+
+
+/* Box-sizing to all the elements, padding handling*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +13,9 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header Styles*/
+/*Styling header element, outlining text color, font, padding*/
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,14 +23,18 @@ body {
     color: #ffffff;
 }
 
+/* Styling for span within header title so it can look different*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Styling for span within header title so it can look different*/
 .header h1 .seo {
     color: #d9dcd6;
 }
+/*Navigation container styling*/
+
 
 .header div {
     padding-top: 15px;
@@ -32,23 +44,34 @@ body {
     font-size: 20px;
 }
 
+
+/* Removing default list styling for navigation links*/
+
 .header div ul {
     list-style-type: none;
 }
+
+/* Inline display of items in the navigation bar*/
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+
+/* Link styles for navigation*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Default styling for paragraph*/
 p {
     font-size: 16px;
 }
+
+
+/* Hero section Styling*/
 
 .hero {
     height: 800px;
@@ -58,6 +81,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/*Floating element styling*/
 
 .float-left {
     float: left;
@@ -69,12 +94,16 @@ p {
     margin-left: 25px;
 }
 
+/*Content section styling, inline*/
+
+/*Inline-block display*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Benefits section styling with the description of the font,padding, float, and background, the whole section floats to the right*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,6 +114,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* Benefits items Styles, defining size, location and color*/
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -133,6 +164,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+/* Section Styles for Marketing techniques, text colors, margins, padding, font, color and other*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -187,7 +221,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Footer styles, padding, center alignment, font color and size*/
 .footer {
     padding: 30px;
     clear: both;
